@@ -1,5 +1,10 @@
 // JavaScript Document
 
+var counter = 0;
+
+//reset button and restart 
+	location.reload();	
+};
 
 function setDraggables() {
 	randomizeDraggables();
