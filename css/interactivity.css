@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+/*---------------------general---------------------------*/
+.button {
+	background-color: #004e95;
+	min-width: 120px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 30px 10px 10px;
+	padding: 5px;
+	float: right;
+	cursor: pointer;
+}
+
+.button:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+.button:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.button:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+.correct {
+	color: #006600;
+	background: url('../graphics/interactivity_correct.png') no-repeat;
+	padding-left: 30px;
+}
+
+.incorrect {
+	color: #990000;	
+	background: url('../graphics/interactivity_incorrect.png') no-repeat;
+	padding-left: 30px;
+}
+
+.correctHighlight {
+	background-color: #c4eec4;
+}
+
+.incorrectHighlight {
+	background-color: #f6c5c5;
+}
+
+.unanswered {
+	color: #555555;	
+	background: url('../graphics/interactivity_blank.png') no-repeat;
+	padding-left: 30px;
+}
+
+.noBorder {
+	border: none;	
+}
+
+.noBorder td {
+	border: none;	
+}
+
+.bottomBorderLine {
+	border-bottom: 1px solid #fff;
+}
+
+.alignTextRight {
+	text-align: right;
+}
+
+#feedback {
+	text-align: center;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+#questionCounter {
+	text-align: right;
+	background-color: #004e95;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 10px;
+}
+
+.changeColor {
+	cursor: pointer;
+}
+
+.divider {
+	border-bottom: 1px solid #ccc;
+}
+
+.blank-space {
+	border-bottom: 1px solid #000;
+	width: 80px;
+	margin-right: 2px;
+	margin-left: 2px;
+	display: inline-block;
+}

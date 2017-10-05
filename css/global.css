@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #ffffff;
+	font: 62.5%/1.5 Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	line-height: 1.5;
+	padding: 20px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	font-size: 1.4em;
+	min-height: 500px;
+	max-width: 1000px;
+}
+
+footer {
+	clear: both;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	max-width: 1000px;
+	border-top: 1px solid;
+	padding-top: 10px;	
+}
+
+footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	font-size: 9px;
+}
+
+footer h6 {
+	font-size: 1em;	
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+h5 {
+	font-size: 1.1em;
+}
+
+h6 {
+	font-size: 0.8em;
+}
+
+img a {
+	border: none;
+}
+
+a img {
+	border: none;
+}
+
+.footnotes {
+	border-top: 1px solid #aaa;
+	padding: 0 30px;
+	color: #666;
+	font-size: 1em;
+}
+
+.footnotes p {
+	font-size: 0.8em;	
+}
+
+.instructions {
+	color: #004E95;
+}

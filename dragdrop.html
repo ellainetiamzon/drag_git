@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Drag and Drop</title>
+
+	<!-- css -->
+	<link href="../../Desktop/newsite/css/global.css" rel="stylesheet" type="text/css" />
+	<link href="../../Desktop/newsite/css/generic.css" rel="stylesheet" type="text/css" />
+	<link href="../../Desktop/newsite/css/interactivity.css" rel="stylesheet" type="text/css" />
+	<link href="../../Desktop/newsite/css/drag-and-drop.css" rel="stylesheet" type="text/css" />	
+	<!-- javascript -->
+	<script src="../../Desktop/newsite/js/modernizr.js"></script>
+	<script src="../../Desktop/newsite/js/jquery-3.2.1.min.js"></script>
+	<script src="../../Desktop/newsite/js/drag-and-drop.js"></script>
+	<script>
+		var totalDraggables = 4;
+	</script>
+</head>
+
+<body>
+
+	<header></header>
+	
+	<div id="wrapper">
+
+		<h1>Drag and Drop</h1>
+
+		<table style="width: 90%">
+			<tr>
+				<td style="width: 98px;"><div id="droppable1" class="droppable"></div></td>
+				<td>The field of knowledge encompassing the workings of the economy, industries and businesses and the models that explain how value is created</td>
+			</tr>
+			<tr>
+				<td><div id="droppable2" class="droppable"></div></td>
+				<td>The field of knowledge that provides a financial manager with much of the language of finance and with financial data</td>
+			</tr>
+			<tr>
+				<td><div id="droppable3" class="droppable"></div></td>
+				<td>Financial claims on a firm or government, as opposed to real capital</td>
+			</tr>
+			<tr>
+				<td><div id="droppable4" class="droppable"></div></td>
+				<td>Physical assets such as a plant and equipment</td>
+			</tr>
+		</table>
+
+		<div id="randomize">
+			<div id="draggable1" class="draggable">drag1</div>
+			<div id="draggable2" class="draggable">drag2</div>
+			<div id="draggable3" class="draggable">drag3</div>
+			<div id="draggable4" class="draggable">drag4</div>
+		</div>
+
+		<!-- buttons -->
+		<div class="clearBoth">
+			<a onClick="resetDragAndDrop()" href="#" class="button" id="reset">Reset</a>
+		</div>
+		
+		<!-- feedback -->
+		<div class="clearBoth" id="feedback">
+			<p>Congratulations! You have completed this activity.</p>
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>
